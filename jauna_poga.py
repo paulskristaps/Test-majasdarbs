@@ -4,3 +4,4 @@ Relīzes uzpucēšana
 Hotfix izmaiņas
 Kaut kādas izmaiņas
 Kaut kaāDAS IZMAIŅAS
+Jauna rinda
