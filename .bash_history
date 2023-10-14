@@ -206,3 +206,50 @@ git flow feature finish implement-ext-logging
 git branch
 git flow feature finish ext-config-load
 git push
+git clone https://github.com/paulskristaps/constructor
+cd demo-repo
+cp -r . Testa-repo
+mv * Testa-repo/
+git clone https://github.com/paulskristaps/Test-majasdarbs
+mv demo-repo Testa-repo/
+cd
+mv demo-repo Testa-repo/
+cd Testa-repo
+git status
+cd
+git add .
+git commit -m "Combined two repos"
+git push
+git remove add Test-majasdarbs https://github.com/paulskristaps/Test-majasdarbs
+git remote add Test-majasdarbs https://github.com/paulskristaps/Test-majasdarbs
+git push 
+git push Test-majasdarbs
+git push --set-upstream Test-majasdarbs master
+git remote add origin https://your-token@github.com/yourusername/Test-majasdarbs.git
+git remote add origigin https://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@github.com/paulskristaps/Test-majasdarbs.git
+git remote add origin https://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@github.com/paulskristaps/Test-majasdarbs.git
+git remote remove origin
+git remote add origin https://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@github.com/paulskristaps/Test-majasdarbs.git
+git push Test-majasdarbs
+git remote remove origin
+git remote add origin https://github.com/paulskristaps/Test-majasdarbs.git
+git push -u origin master
+cd Test-majasdarbs
+ls -d */
+cd Testa-repo/
+git fetch origin
+git merge origin
+git merge origin/master
+git push origin master
+cd
+git push -u origin master
+git push
+git push -u origin master
+ulskristaps
+Password for 'https://paulskristaps@github.com': 
+To https://github.com/paulskristaps/Test-majasdarbs.git
+error: failed to push some refs to 'https://github.com/paulskristaps/Test-majasdarbs.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
